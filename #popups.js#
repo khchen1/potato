@@ -19,33 +19,11 @@ var blackList = true;
 function click(e) {
 	while(blackList == true){
 		if(window.location.href != "www.youtube.com"){
-			(function(){
 
-   $('<div/>', {
-      id: 'cover'
-   }).appendTo(document.documentElement);
-
-    $('#cover').fadeTo("fast",1);
-   /* $('#cover').load("potato.jpg");*/
-
-})();
-
-	/*chrome.tabs.executeScript({code: 'location.replace("http://www.google.com");'});*/
+		/*	chrome.tabs.executeScript({code: 'location.replace("http://www.google.com");'});*/
 		}
 	}
 }
-
-/*(function(){
-
-   $('<div/>', {
-      id: 'cover'
-   }).appendTo(document.documentElement);
-
-    $('#cover').fadeTo("fast",1);
-    $('#cover').load("potato.jpg");
-
-})();*/
-
 
 document.addEventListener('DOMContentLoaded', function () {
   var divs = document.querySelectorAll('div');
