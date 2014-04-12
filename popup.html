@@ -1,20 +1,48 @@
 <!doctype html>
 <html>
   <head>
-    <title>Pomodoro Potato</title>
+    <title>Set Page Color Popup</title>
     <style>
-      body {
-        width:500px;
-		height:500px;
-		back
-        <!--overflow-x: hidden;-->
+    body {
+      overflow: hidden;
+      margin: 0px;
+      padding: 0px;
+      background: white;
+    }
 
-      }
+    div:first-child {
+      margin-top: 0px;
+    }
+	<div id="overlay">
+	<div>
+	<p>Content you want the user to see goes here.</p>
+	</div>
+	</div>
+
+    div {
+      cursor: pointer;
+      text-align: center;
+      padding: 1px 3px;
+      font-family: sans-serif;
+      font-size: 0.8em;
+      width: 100px;
+      margin-top: 1px;
+      background: #cccccc;
+    }
+    div:hover {
+      background: #aaaaaa;
+    }
+    #blue {
+      border: 1px solid blue;
+      color: blue;
+    }
+
     </style>
     <script src="popups.js"></script>
-	<button onClick>alsdkfjlk</button>
   </head>
   <body>
+
+    <div id="blue">blue</div>
+
   </body>
 </html>
-
